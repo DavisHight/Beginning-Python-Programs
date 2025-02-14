@@ -1,0 +1,16 @@
+
+sub_orders = ["tuna", "chicken", "chicken bacon ranch", "BLT", "veggie"]
+
+
+finished_subs = []
+
+
+while sub_orders:
+    current_sub = sub_orders.pop(0)
+    print(f"I made your {current_sub} sub.")
+    finished_subs.append(current_sub)
+
+
+print("\nSubs made:")
+for sub in finished_subs:
+    print(sub)
